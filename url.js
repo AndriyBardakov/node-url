@@ -303,7 +303,7 @@ Url.prototype.parse = function(url, parseQueryString, slashesDenoteHost) {
     // strip [ and ] from the hostname
     // the host field still retains them, though
     if (ipv6Hostname) {
-      this.hostname = this.hostname.substr(1, this.hostname.length - 2);
+      //this.hostname = this.hostname.substr(1, this.hostname.length - 2);
       if (rest[0] !== '/') {
         rest = '/' + rest;
       }
